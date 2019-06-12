@@ -70,6 +70,14 @@
     <Content Include="CodeTheWay.html" />
     <Content Include="HerosForHealthcare.html" />
     <Content Include="LifeNavigators.html" />
+    <Content Include="Media.html" />
+    <Content Include="Media\CodeTheWay Logo.png" />
+    <Content Include="Media\Heroes Logo.png" />
+    <Content Include="Media\Heroes2.png" />
+    <Content Include="Media\Heroes3.png" />
+    <Content Include="Media\LifeNavigators1.jpg" />
+    <Content Include="Media\LifeNavigators2.jpg" />
+    <Content Include="Media\Team Learning.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
