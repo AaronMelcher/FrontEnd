@@ -71,13 +71,23 @@
     <Content Include="HerosForHealthcare.html" />
     <Content Include="LifeNavigators.html" />
     <Content Include="Media.html" />
+    <Content Include="Media\Code Review.jpg" />
     <Content Include="Media\CodeTheWay Logo.png" />
+    <Content Include="Media\Definition of done.jpg" />
+    <Content Include="Media\Hallway.jpg" />
     <Content Include="Media\Heroes Logo.png" />
     <Content Include="Media\Heroes2.png" />
     <Content Include="Media\Heroes3.png" />
     <Content Include="Media\LifeNavigators1.jpg" />
     <Content Include="Media\LifeNavigators2.jpg" />
+    <Content Include="Media\Project Management.jpg" />
+    <Content Include="Media\Sprint review-code demo.jpg" />
+    <Content Include="Media\Stand Up.jpg" />
     <Content Include="Media\Team Learning.jpg" />
+    <Content Include="Media\Team Programming.jpg" />
+    <Content Include="Media\To do list.jpg" />
+    <Content Include="Media\Update.jpg" />
+    <Content Include="Media\Work Time.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
