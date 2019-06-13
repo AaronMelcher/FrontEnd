@@ -15,7 +15,7 @@
         (2) Increase certified computer science teachers;
         and (3) Contribute to the technology talent base
     </p>
-    <button onclick="fadeToggle()" class="showHideVision">Code the Way includes:</button>
+    <button id="#button" onclick="fadeToggle()" class="showHideVision">Code the Way includes:</button>
     <ul>
         <li>
             <div id="div1">
@@ -62,7 +62,7 @@
     }
 
     $(document).ready(function () {
-        $("button").click(function () {
+        $("#button").click(function () {
             $("#div1").fadeToggle();
             $("#div2").fadeToggle("slow");
             $("#div3").fadeToggle(3000);
