@@ -88,6 +88,7 @@
     <Content Include="Media\To do list.jpg" />
     <Content Include="Media\Update.jpg" />
     <Content Include="Media\Work Time.jpg" />
+    <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
