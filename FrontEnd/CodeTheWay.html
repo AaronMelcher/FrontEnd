@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="StyleSheet.css" />
     <title>Code The Way</title>
 </head>
-<body onload="showHide()">
+<body onload="showHide();">
     <img src="/Media/CodeTheWay Logo.png" height="86px" width="125px" />
     <p class="majorHeading">Code the Way</p>
     <p class="minorHeading">Mission</p>
@@ -15,22 +15,22 @@
         (2) Increase certified computer science teachers;
         and (3) Contribute to the technology talent base
     </p>
-    <p>Code the Way model includes:</p>
+    <button onclick="fadeToggle()" class="showHideVision">Code the Way includes:</button>
     <ul>
         <li>
-            <div class="tooltip">
+            <div id="div1">
                 Student access to real-world job experience
                 <div class="tooltiptext">In addition to an advanced course that may earn post-secondary credits, students get experience working collaboratively on a project that benefits a nonprofit, culminating in a presentation to business leaders.</div>
             </div>
         </li>
         <li>
-            <div class="tooltip">
+            <div id="div2">
                 Companies are part of the solution
                 <div class="tooltiptext">Companies invest in education, make technology more accessible to nonprofits, offer their employees a meaningful volunteer experience, and contribute to the talent pipeline.</div>
             </div>
         </li>
         <li>
-            <div class="tooltip">
+            <div id="div3">
                 Increasing certified computer science teachers
                 <div class="tooltiptext">Support and training for computer science teacher certification increases the availability and quality of high school computer science programs.</div>
             </div>
@@ -50,7 +50,7 @@
     <a href="Media.html" class="navigationLink">Media</a>
 </body>
 </html>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script>
     function showHide() {
         var x = document.getElementById("vision");
@@ -60,4 +60,12 @@
             x.style.display = "block";
         }
     }
+
+    $(document).ready(function () {
+        $("button").click(function () {
+            $("#div1").fadeToggle();
+            $("#div2").fadeToggle("slow");
+            $("#div3").fadeToggle(3000);
+        });
+    })
 </script>
