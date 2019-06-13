@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="StyleSheet.css" />
     <title>Code The Way</title>
 </head>
-<body>
+<body onload="showHide()">
     <img src="/Media/CodeTheWay Logo.png" height="86px" width="125px" />
     <p class="majorHeading">Code the Way</p>
     <p class="minorHeading">Mission</p>
@@ -37,11 +37,27 @@
         </li>
     </ul>
     <img src="/Media/Team Learning.jpg" height="216px" width="288px" align="right" />
-    <p align="right" class="minorHeading">Vision</p>
-    <p align="right">High school students in Greater Milwaukee have access to high quality computer science education and real-world job experiences, positioning them for success in technology-related fields</p>
+    <button onclick="showHide()" class="showHideVision">Show Vision</button>
+    <div id="vision">
+        <p align="right" class="minorHeading">Vision</p>
+        <div class="bodyText">
+            <p>High school students in Greater Milwaukee have access to high quality computer science education and real-world job experiences, positioning them for success in technology-related fields</p>
+        </div>
+    </div>
     <p class="minorHeading">Links</p>
     <a href="LifeNavigators.html" class="navigationLink">Life Navigators</a>
     <a href="HerosForHealthcare.html" class="navigationLink">Heros for Healthcare</a>
     <a href="Media.html" class="navigationLink">Media</a>
 </body>
 </html>
+
+<script>
+    function showHide() {
+        var x = document.getElementById("vision");
+        if (x.style.display !== "none") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
